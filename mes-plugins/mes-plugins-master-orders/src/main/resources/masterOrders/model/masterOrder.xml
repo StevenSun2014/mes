@@ -56,7 +56,7 @@
 
         <decimal name="masterOrderQuantity">
             <validatesRange from="0"/>
-            <validatesUnscaledValue max="9"/>
+            <validatesUnscaledValue max="7"/>
             <validatesScale max="5"/>
         </decimal>
         <decimal name="cumulatedOrderQuantity" persistent="false">
@@ -66,12 +66,12 @@
         </decimal>
         <decimal name="producedOrderQuantity">
             <validatesRange from="0"/>
-            <validatesUnscaledValue max="9"/>
+            <validatesUnscaledValue max="7"/>
             <validatesScale max="5"/>
         </decimal>
         <decimal name="leftToRelease">
             <validatesRange from="0"/>
-            <validatesUnscaledValue max="9"/>
+            <validatesUnscaledValue max="7"/>
             <validatesScale max="5"/>
         </decimal>
 
